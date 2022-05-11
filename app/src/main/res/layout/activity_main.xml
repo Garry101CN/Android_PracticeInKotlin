@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android进阶项目实践 by Gary"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="SnackBar Test" />
+
+    <Button
+        android:id="@+id/textInputBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextInput Layout Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/tabLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tablayout Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/geoquizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GEO QUIZ"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/navigationDrawerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Drawer Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/eventBusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EventBus Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/RxJavaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJava Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
